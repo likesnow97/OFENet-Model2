@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the corresponding OFE-FRAT micro-expression recognition work."
+title: "OFE-FRAT: Optical-Flow Enhanced Facial Region Attention Transformer for Micro-Expression Recognition"
+authors:
+  - family-names: "Li"
+    given-names: "Mabel"
+year: 2026
+version: 0.1.0

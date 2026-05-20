@@ -1,0 +1,22 @@
+name: ofe_frat
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - pillow
+  - pyyaml
+  - tqdm
+  - opencv
+  - pytorch
+  - torchvision
+  - pip:
+      - timm>=0.9

@@ -1,0 +1,10 @@
+project_root: /nfs/users/lixinglin/projects/ofe_frat_v1/strict_model2
+manifest: /nfs/users/lixinglin/projects/ofe_frat_v1/data/Combined/manifest_frames.csv
+data_root: /nfs/users/lixinglin/data/microemotion
+
+num_classes: 3
+model_name: improved_resnet_v22
+pretrained: true
+
+log_dir: /nfs/users/lixinglin/projects/ofe_frat_v1/strict_model2/logs
+result_dir: /nfs/users/lixinglin/projects/ofe_frat_v1/strict_model2/results
