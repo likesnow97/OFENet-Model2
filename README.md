@@ -27,6 +27,35 @@ Model2 is based on `ImprovedResNetV22`, which uses precomputed onset-apex TV-L1 
     confusion_matrix.py
     docs/
 
+## External Dependency
+
+This project depends on the following external repository:
+
+- https://github.com/MabelLeeeee/gazeEmotion
+
+`gazeEmotion` is declared in `requirements.txt` as a pip-installable Git dependency and is also included as a Git submodule for source-level traceability.
+
+### Clone with submodules
+
+```bash
+git clone --recurse-submodules https://github.com/likesnow97/OFENet-Model2.git
+cd OFENet-Model2
+````
+
+If the repository has already been cloned without submodules, run:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+````
+
 ## What Is Not Included
 
 This repository does not include:
@@ -123,6 +152,8 @@ Example:
       --batch-size 32 \
       --device cuda \
       --variant no_rfr
+
+
 
 ## Summarizing Results
 
